@@ -17,7 +17,7 @@ import {
 import './App.css'
 import { type CepmRecord, parseCepmWorkbook } from './lib/cepmParser'
 
-const WORKBOOK_PATH = '/data/concludentes-cepm.xlsx'
+const WORKBOOK_PATH = `${import.meta.env.BASE_URL}data/concludentes-cepm.xlsx`
 
 const FORCE_COLORS = [
   '#0284c7',
